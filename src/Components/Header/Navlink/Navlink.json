@@ -1,0 +1,47 @@
+[
+    {
+        "Navlink":"Learn",
+        "Link":"/learn",
+        "Isdropdown":false,
+        "IsButton":false
+    },
+    {
+        "Navlink":"Refrence",
+        "Link":"/Refrence",
+        "Isdropdown":false,
+        "IsButton":false
+    },
+    {
+        "Navlink":"Community",
+        "Link":"/community",
+        "IsButton":false,
+        "Isdropdown":true,
+        "Dropdown":[{
+            "Navlink":"MyCommunity",
+            "Link":"/mycommunity"
+        },
+        {
+            "Navlink":"OurCommunity",
+            "Link":"/ourcommunity"
+        }]
+
+    },
+    {
+        "Navlink":"Blog",
+        "Link":"/blog",
+        "IsButton":false,
+        "Isdropdown":true,
+        "Dropdown":[{
+            "Navlink":"Git",
+            "Link":"/git"
+        },
+        {
+            "Navlink":"Github",
+            "Link":"/github"
+        }]
+
+    }
+
+]
+
+

@@ -1,0 +1,11 @@
+.section{
+    background-color: rgb(215, 241, 250,0.3);
+}
+
+.feature-container{
+    background-color: #fff
+    ;
+}
+.features-icon{
+    display: flex;
+}

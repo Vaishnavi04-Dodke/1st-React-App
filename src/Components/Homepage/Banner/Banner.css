@@ -1,0 +1,62 @@
+body{
+    font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.banner {
+    width: 100%;
+    background-image: conic-gradient(from 90deg at -10% 100%, #2b303b 0deg, #2b303b 90deg, #16181d 1turn);
+    color: white;
+}
+
+.banner-content {
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem
+}
+
+
+  .banner-content img  {
+    animation: rotate 5s linear infinite;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+.banner-content h1{
+    /* color: #23272F; */
+    font-size: 52px;
+    line-height: 1.375;
+    font-weight: 600;
+}
+.banner-content h4{
+    font-size: 32px;
+    line-height: 1.375;
+   /* color: #404756; */
+}
+.banner-content Button{
+    margin-top: 20px;
+    line-height: 1.375;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #087eA4;
+    border-radius: 30px;
+    padding: 12px 24px;
+    border: none;
+
+} 
+.banner-content .Api{
+  background-color: white;
+  color: #23272F;
+  border: 1px solid #23272F;
+}
+.banner{
+  position: relative;
+}

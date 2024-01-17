@@ -1,0 +1,17 @@
+.services-us{
+    background-color: #1a2529;
+}
+.text-color-green{
+    color:#1dcd8d;
+}
+.service-icon{
+    border: 1px solid #1dcd8d;
+    border-radius: 5px;
+}
+.Service-column{
+    background-color: #263237;
+    /* margin: 40px; */
+    margin-right: 70px;
+    border: none;
+border-radius: 30px;
+}
