@@ -94,7 +94,7 @@ function Features() {
                         {benifits.map((benefit, index) => (
                             <div key={index} className="">
                                 <div className='features-icon'>
-                                    <img src={benefit.icon} alt="" width={"7%"} className='' />
+                                    {/* <img src={benefit.icon} alt="" width={"7%"} className='' /> */}
                                     <h3>{benefit.content}</h3>
                                 </div>
                                 <p className=' mb-4'>{benefit.subcontent}</p>
